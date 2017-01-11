@@ -14,7 +14,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -33,7 +33,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -56,7 +56,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -76,7 +76,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -96,7 +96,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -116,7 +116,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -139,7 +139,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -159,7 +159,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -179,7 +179,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -199,7 +199,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -222,7 +222,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -246,7 +246,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -265,7 +265,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -289,7 +289,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -308,7 +308,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -340,14 +340,15 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
                 }],
                 legend: {
                     data: ['this is a', 'this is b ...',
-                        'this is c ... ...'],
+                        'this is c ... ...'
+                    ],
                     width: 200
                 }
             },
@@ -367,14 +368,15 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
                 }],
                 legend: {
                     data: ['this is a', 'this is b ...',
-                        'this is c ... ...']
+                        'this is c ... ...'
+                    ]
                 }
             }
         }]
@@ -399,14 +401,15 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
                 }],
                 legend: {
                     data: ['this is a', 'this is b ...',
-                        'this is c ... ...'],
+                        'this is c ... ...'
+                    ],
                     height: 50,
                     orient: 'vertical'
                 }
@@ -427,14 +430,15 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
                 }],
                 legend: {
                     data: ['this is a', 'this is b ...',
-                        'this is c ... ...'],
+                        'this is c ... ...'
+                    ],
                     orient: 'vertical'
                 }
             }
@@ -459,14 +463,15 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
                 }],
                 legend: {
                     data: ['this is a', 'this is b ...',
-                        'this is c ... ...'],
+                        'this is c ... ...'
+                    ],
                     orient: 'horizontal'
                 }
             }
@@ -488,14 +493,15 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
                 }],
                 legend: {
                     data: ['this is a', 'this is b ...',
-                        'this is c ... ...'],
+                        'this is c ... ...'
+                    ],
                     orient: 'vertical'
                 }
             }
@@ -518,14 +524,15 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
                 }],
                 legend: {
                     data: ['this is a', 'this is b ...',
-                        'this is c ... ...'],
+                        'this is c ... ...'
+                    ],
                     orient: 'vertical'
                 }
             },
@@ -545,14 +552,15 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
                 }],
                 legend: {
                     data: ['this is a', 'this is b ...',
-                        'this is c ... ...']
+                        'this is c ... ...'
+                    ]
                 }
             }
         }]
@@ -576,14 +584,15 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
                 }],
                 legend: {
                     data: ['this is a', 'this is b bbb',
-                        'this is c ccc ccc'],
+                        'this is c ccc ccc'
+                    ],
                     left: 'right',
                     height: 50,
                     orient: 'vertical'
@@ -608,14 +617,15 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
                 }],
                 legend: {
                     data: ['this is a', 'this is b ...',
-                        'this is c ... ...'],
+                        'this is c ... ...'
+                    ],
                     left: 'right',
                     orient: 'vertical'
                 }
@@ -636,14 +646,15 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
                 }],
                 legend: {
                     data: ['this is a', 'this is b ...',
-                        'this is c ... ...'],
+                        'this is c ... ...'
+                    ],
                     left: 'right',
                     orient: 'vertical',
                     align: 'right'
@@ -668,7 +679,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -696,7 +707,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -722,7 +733,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -739,7 +750,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -760,7 +771,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -778,7 +789,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -805,7 +816,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -825,7 +836,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -852,7 +863,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -872,7 +883,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -899,7 +910,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -920,7 +931,7 @@ describe('legend', function() {
                 }],
                 xAxis: [{
                     type: 'category',
-                    data: ['x','y','z']
+                    data: ['x', 'y', 'z']
                 }],
                 yAxis: [{
                     type: 'value'
@@ -981,7 +992,8 @@ describe('legend', function() {
             name: 'should have larger itemWidth',
             cases: (function() {
                 var types = ['bar', 'line', 'scatter', 'effectScatter',
-                    'radar'];
+                    'radar'
+                ];
                 var res = [];
                 for (var i = 0; i < types.length; ++i) {
                     res.push({
@@ -1082,7 +1094,8 @@ describe('legend', function() {
             name: 'should have larger itemHeight',
             cases: (function() {
                 var types = ['bar', 'line', 'scatter', 'effectScatter',
-                    'radar'];
+                    'radar'
+                ];
                 var res = [];
                 for (var i = 0; i < types.length; ++i) {
                     res.push({
